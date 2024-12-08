@@ -1,0 +1,97 @@
+1  touch Hello_A.sh
+    2  ls
+    3  ssh-keygen
+    4  vim server_b.pem
+    5  chmod 400 server_b.pem
+    6  ssh -i "server_b.pem" ubuntu@ec2-13-48-43-30.eu-north-1.compute.amazonaws.com
+    7  exit
+    8  clear
+    9  ls
+   10  rm -rf server_b.pem
+   11  clear
+   12  ls
+   13  vim Hello_A.sh
+   14  git
+   15  git --version
+   16  clear
+   17  git -v
+   18  clear
+   19  ls
+   20  vim Hello_A.sh
+   21  chmod u+x Hello_A.sh
+   22  ./Hello_A.sh
+   23  vim Hello_A.sh
+   24  ./Hello_A.sh
+   25  vim Hello_A.sh
+   26  ./Hello_A.sh
+   27  vim Hello_A.sh
+   28  ./Hello_A.sh
+   29  clear
+   30  ls
+   31  git init
+   32  ls -a
+   33  clear
+   34  ls
+   35  mv Hello_A.sh Tripestimate.sh
+   36  ls
+   37  clear
+   38  ls
+   39  ls -a
+   40  rm -r .git
+   41  ls -a
+   42  mkdir shellscipts
+   43  cd shellscripts
+   44  mv shellscipts shellscripts
+   45  cd shellscripts
+   46  ls
+   47  git init
+   48  ls -a
+   49  clear
+   50  cd
+   51  ls
+   52  pwd
+   53  mv /home/ubuntu/Tripestimate.sh shellscripts
+   54  cd shellscripts
+   55  ls
+   56  clear
+   57  git status
+   58  git add Tripestimate.sh
+   59  git status
+   60  git commit -m "added trip file"
+   61  git status
+   62  git log
+   63  git branch
+   64  cd
+   65  git clone https://github.com/Babasaheb8600/git-or-github.git
+   66  ls
+   67  cd git-or-github
+   68  ls
+   69  cd
+   70  cd shellscripts
+   71  ls
+   72  clear
+   73  cd
+   74  cd .ssh
+   75  ls
+   76  cat id_ed25519.pub
+   77  cd
+   78  clear
+   79  ls
+   80  cd shellscirpts
+   81  cd shellscripts
+   82  git remote -v
+   83  git remote add-url origin git@github.com:Babasaheb8600/shellscripts.git
+   84  git remote add origin git@github.com:Babasaheb8600/shellscripts.git
+   85  git remote -v
+   86  git status
+   87  git push origin master
+   88  cd
+   89  ls
+   90  cd shellscripts
+   91  git log
+   92  git pull origin master
+   93  ls
+   94  git checkout -b dev
+   95  git status
+   96  vim baba.sh
+
