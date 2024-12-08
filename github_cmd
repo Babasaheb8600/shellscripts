@@ -1,3 +1,7 @@
+<< help
+ these is command for help you
+help
+
 1  touch Hello_A.sh
     2  ls
     3  ssh-keygen
